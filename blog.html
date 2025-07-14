@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedConsult - المدونة الطبية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i>
+                MedConsult
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="index.html#services">الخدمات</a></li>
+                <li><a href="index.html#doctors">الأطباء</a></li>
+                <li><a href="index.html#booking">الحجز</a></li>
+                <li><a href="blog.html" class="active">المدونة</a></li>
+                <li><a href="index.html#testimonials">تقييمات</a></li>
+                <li><a href="index.html#contact">اتصل بنا</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#" class="btn btn-outline">تسجيل الدخول</a>
+                <a href="#" class="btn btn-primary">انشاء حساب</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- هيدر المدونة -->
+    <section class="blog-header">
+        <div class="container">
+            <h1>المدونة الطبية</h1>
+            <p>آخر المقالات والنصائح الطبية من فريقنا المتخصص</p>
+        </div>
+    </section>
+
+    <!-- محتوى المدونة -->
+    <section class="section blog-listing">
+        <div class="container">
+            <div class="blog-filters">
+                <div class="filter-group">
+                    <label for="category">التصنيف:</label>
+                    <select id="category" name="category">
+                        <option value="">الكل</option>
+                        <option value="mental">الصحة النفسية</option>
+                        <option value="heart">أمراض القلب</option>
+                        <option value="nutrition">التغذية</option>
+                        <option value="prevention">الوقاية</option>
+                        <option value="children">صحة الأطفال</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="sort">الترتيب:</label>
+                    <select id="sort" name="sort">
+                        <option value="newest">الأحدث</option>
+                        <option value="popular">الأكثر قراءة</option>
+                        <option value="oldest">الأقدم</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="الصحة النفسية في العمل" class="blog-img">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">الصحة النفسية</span>
+                            <span class="blog-date">10 مايو 2025</span>
+                        </div>
+                        <h3>نصائح للحفاظ على الصحة النفسية في العمل</h3>
+                        <p>في عالمنا المعاصر الذي يتسم بالسرعة والضغوط المتزايدة، أصبحت الصحة النفسية في العمل من أهم المواضيع التي يجب الاهتمام بها. مع زيادة ساعات العمل والضغوط المهنية، يواجه الكثير من الموظفين تحديات نفسية تؤثر على إنتاجيتهم وجودة حياتهم بشكل عام.</p>
+                        <div class="blog-footer">
+                            <a href="post1.html" class="btn btn-outline">اقرأ المزيد</a>
+                            <div class="blog-stats">
+                                <span><i class="far fa-eye"></i> 1,245</span>
+                                <span><i class="far fa-comment"></i> 28</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="ضغط الدم في الصيف" class="blog-img">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">أمراض القلب</span>
+                            <span class="blog-date">3 مايو 2025</span>
+                        </div>
+                        <h3>ضغط الدم في الصيف: نصائح للتحكم</h3>
+                        <p>مع ارتفاع درجات الحرارة في فصل الصيف، يواجه مرضى ضغط الدم تحديات إضافية في الحفاظ على مستويات ضغط الدم ضمن المعدلات الطبيعية. في هذه المقالة، نستعرض أهم النصائح العلمية للتحكم في ضغط الدم خلال أشهر الصيف الحارة.</p>
+                        <div class="blog-footer">
+                            <a href="post2.html" class="btn btn-outline">اقرأ المزيد</a>
+                            <div class="blog-stats">
+                                <span><i class="far fa-eye"></i> 2,187</span>
+                                <span><i class="far fa-comment"></i> 42</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="الفحص الدوري" class="blog-img">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">الوقاية</span>
+                            <span class="blog-date">25 أبريل 2025</span>
+                        </div>
+                        <h3>أهمية الفحص الدوري للوقاية من الأمراض</h3>
+                        <p>الفحص الطبي الدوري هو إجراء وقائي مهم يساعد في الكشف المبكر عن الأمراض قبل ظهور الأعراض، مما يزيد من فرص الشفاء ويقلل من تكاليف العلاج. تعرف على أهم الفحوصات التي يجب إجراؤها حسب الفئة العمرية.</p>
+                        <div class="blog-footer">
+                            <a href="#" class="btn btn-outline">اقرأ المزيد</a>
+                            <div class="blog-stats">
+                                <span><i class="far fa-eye"></i> 1,876</span>
+                                <span><i class="far fa-comment"></i> 35</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="اختيار التخصص الطبي" class="blog-img">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">التعليم الطبي</span>
+                            <span class="blog-date">20 أبريل 2025</span>
+                        </div>
+                        <h3>كيف تختار التخصص الطبي المناسب لك</h3>
+                        <p>اختيار التخصص الطبي هو قرار مصيري في حياة طالب الطب. في هذه المقالة، نقدم دليلاً شاملاً لاختيار التخصص المناسب بناءً على المهارات الشخصية، الاهتمامات، وأساليب الحياة المختلفة.</p>
+                        <div class="blog-footer">
+                            <a href="#" class="btn btn-outline">اقرأ المزيد</a>
+                            <div class="blog-stats">
+                                <span><i class="far fa-eye"></i> 3,210</span>
+                                <span><i class="far fa-comment"></i> 65</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1495653797063-114787b77b23?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="التغذية الصحية" class="blog-img">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">التغذية</span>
+                            <span class="blog-date">15 أبريل 2025</span>
+                        </div>
+                        <h3>أساسيات التغذية الصحية في الحياة اليومية</h3>
+                        <p>التغذية السليمة هي أساس الصحة الجيدة. تعرف على المبادئ الأساسية للتغذية الصحية وكيفية تطبيقها في حياتك اليومية بدون تعقيدات أو أنظمة قاسية، مع التركيز على الأطعمة المحلية المتوفرة في منطقتنا العربية.</p>
+                        <div class="blog-footer">
+                            <a href="#" class="btn btn-outline">اقرأ المزيد</a>
+                            <div class="blog-stats">
+                                <span><i class="far fa-eye"></i> 2,543</span>
+                                <span><i class="far fa-comment"></i> 48</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="صحة الأطفال" class="blog-img">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">صحة الأطفال</span>
+                            <span class="blog-date">8 أبريل 2025</span>
+                        </div>
+                        <h3>دليل التطعيمات الأساسية للأطفال</h3>
+                        <p>التطعيمات هي درع الوقاية الأول للأطفال ضد الأمراض الخطيرة. في هذا الدليل الشامل، نستعرض جدول التطعيمات الأساسية للأطفال من الولادة حتى سن المدرسة، وأهمية كل تطعيم، والآثار الجانبية المتوقعة.</p>
+                        <div class="blog-footer">
+                            <a href="#" class="btn btn-outline">اقرأ المزيد</a>
+                            <div class="blog-stats">
+                                <span><i class="far fa-eye"></i> 1,932</span>
+                                <span><i class="far fa-comment"></i> 31</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="page-btn active">1</a>
+                <a href="#" class="page-btn">2</a>
+                <a href="#" class="page-btn">3</a>
+                <a href="#" class="page-btn"><i class="fas fa-arrow-left"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer" id="contact">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>عن MedConsult</h3>
+                <p>منصة طبية رائدة تقدم استشارات طبية إلكترونية بجودة عالية، تهدف إلى جعل الرعاية الصحية في متناول الجميع في أي وقت ومن أي مكان.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>روابط سريعة</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="index.html#services">الخدمات</a></li>
+                    <li><a href="index.html#doctors">الأطباء</a></li>
+                    <li><a href="index.html#booking">الحجز</a></li>
+                    <li><a href="blog.html">المدونة</a></li>
+                    <li><a href="index.html#testimonials">تقييمات</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>خدماتنا</h3>
+                <ul class="footer-links">
+                    <li><a href="#">استشارات الفيديو</a></li>
+                    <li><a href="#">استشارات الدردشة</a></li>
+                    <li><a href="#">السجلات الطبية</a></li>
+                    <li><a href="#">الوصفات الإلكترونية</a></li>
+                    <li><a href="#">الاستشارات النفسية</a></li>
+                    <li><a href="#">استشارات التغذية</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>اتصل بنا</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> الرياض، المملكة العربية السعودية</li>
+                    <li><i class="fas fa-phone"></i> 966112345678+</li>
+                    <li><i class="fas fa-envelope"></i> info@medconsult.com</li>
+                    <li><i class="fas fa-clock"></i> الأحد - الخميس: 8 صباحاً - 10 مساءً</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 MedConsult. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script>
+        // تنفيذ القائمة المتنقلة للجوال
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
