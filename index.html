@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedConsult - الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i>
+                MedConsult
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#doctors">الأطباء</a></li>
+                <li><a href="#booking">الحجز</a></li>
+                <li><a href="blog.html">المدونة</a></li>
+                <li><a href="#testimonials">تقييمات</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#" class="btn btn-outline">تسجيل الدخول</a>
+                <a href="#" class="btn btn-primary">انشاء حساب</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- الهيرو -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>رعاية طبية متكاملة في متناول يديك</h1>
+            <p>استشارات طبية عبر الإنترنت مع أفضل الأطباء المتخصصين في مختلف المجالات الطبية، في أي وقت ومن أي مكان.</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn btn-primary">احجز استشارة الآن</a>
+                <a href="#services" class="btn btn-outline">اكتشف خدماتنا</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- الخدمات -->
+    <section class="section services" id="services">
+        <div class="section-title">
+            <h2>خدماتنا الطبية</h2>
+            <p>نقدم مجموعة واسعة من الخدمات الطبية لتلبية جميع احتياجاتك الصحية</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-laptop-medical"></i>
+                </div>
+                <h3>استشارات الفيديو</h3>
+                <p>استشارات طبية مباشرة عبر الفيديو مع أطباء متخصصين في مختلف المجالات</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-comments-medical"></i>
+                </div>
+                <h3>استشارات الدردشة</h3>
+                <p>تواصل مع الأطباء عبر الدردشة النصية للحصول على إجابات فورية لاستفساراتك الطبية</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-file-medical"></i>
+                </div>
+                <h3>الوصفات الإلكترونية</h3>
+                <p>استلام وصفتك الطبية إلكترونياً وإرسالها مباشرة إلى الصيدلية المفضلة لديك</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <h3>المتابعة المستمرة</h3>
+                <p>برامج متابعة طبية مستمرة للحالات المزمنة مع فريق متخصص في رعايتك</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- الأطباء -->
+    <section class="section doctors" id="doctors">
+        <div class="section-title">
+            <h2>فريقنا الطبي</h2>
+            <p>أطباء متخصصون بخبرات واسعة في مختلف التخصصات الطبية</p>
+        </div>
+        <div class="doctors-grid">
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="د. أحمد محمد" class="doctor-img">
+                <div class="doctor-info">
+                    <h3>د. أحمد محمد</h3>
+                    <span class="doctor-specialty">أخصائي أمراض باطنة</span>
+                    <div class="doctor-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.8)</span>
+                    </div>
+                    <p>خبرة 15 عاماً في تشخيص وعلاج الأمراض الباطنية</p>
+                    <a href="#booking" class="btn btn-outline">احجز استشارة</a>
+                </div>
+            </div>
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="د. سارة عبد الله" class="doctor-img">
+                <div class="doctor-info">
+                    <h3>د. سارة عبد الله</h3>
+                    <span class="doctor-specialty">استشارية نفسية</span>
+                    <div class="doctor-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(5.0)</span>
+                    </div>
+                    <p>متخصصة في العلاج المعرفي السلوكي والاستشارات الأسرية</p>
+                    <a href="#booking" class="btn btn-outline">احجز استشارة</a>
+                </div>
+            </div>
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="د. خالد حسن" class="doctor-img">
+                <div class="doctor-info">
+                    <h3>د. خالد حسن</h3>
+                    <span class="doctor-specialty">أخصائي قلب وأوعية دموية</span>
+                    <div class="doctor-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(4.2)</span>
+                    </div>
+                    <p>متخصص في أمراض القلب والوقاية من الجلطات</p>
+                    <a href="#booking" class="btn btn-outline">احجز استشارة</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الحجز -->
+    <section class="section booking" id="booking">
+        <div class="section-title">
+            <h2>حجز الاستشارات</h2>
+            <p>احجز موعدك بسهولة مع طبيب متخصص في خطوات بسيطة</p>
+        </div>
+        <div class="booking-container">
+            <div class="booking-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>اختر الطبيب والتخصص</h3>
+                        <p>تصفح قائمة الأطباء حسب التخصص أو البحث بالاسم، واختر الطبيب المناسب لك</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>حدد التاريخ والوقت</h3>
+                        <p>اختر التاريخ والوقت المناسبين من الأوقات المتاحة للطبيب</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>أكمل عملية الحجز</h3>
+                        <p>ادخل معلوماتك الشخصية وأكمل عملية الدفع بسهولة وأمان</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>استلم تأكيد الحجز</h3>
+                        <p>ستصلك رسالة تأكيد بالبريد الإلكتروني والجوال مع رابط الاستشارة</p>
+                    </div>
+                </div>
+            </div>
+            <div class="booking-form">
+                <h3>ابحث عن طبيب متخصص</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="specialty">التخصص الطبي</label>
+                        <select id="specialty" name="specialty">
+                            <option value="">اختر التخصص</option>
+                            <option value="internal">أمراض باطنية</option>
+                            <option value="cardio">قلب وأوعية دموية</option>
+                            <option value="psych">طب نفسي</option>
+                            <option value="nutrition">تغذية علاجية</option>
+                            <option value="pediatric">أطفال</option>
+                            <option value="dermatology">جلدية</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="doctor">اسم الطبيب (اختياري)</label>
+                        <input type="text" id="doctor" name="doctor" placeholder="ابحث باسم الطبيب">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">التاريخ المفضل</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="time">الوقت المفضل</label>
+                        <select id="time" name="time">
+                            <option value="">اختر الوقت</option>
+                            <option value="morning">الصباح (8 ص - 12 ظ)</option>
+                            <option value="afternoon">الظهر (12 ظ - 4 م)</option>
+                            <option value="evening">المساء (4 م - 8 م)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">ابحث عن مواعيد متاحة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- المدونة -->
+    <section class="section blog" id="blog">
+        <div class="section-title">
+            <h2>المدونة الطبية</h2>
+            <p>آخر المقالات والنصائح الطبية من فريقنا المتخصص</p>
+        </div>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="الصحة النفسية في العمل" class="blog-img">
+                <div class="blog-content">
+                    <div class="blog-date">10 مايو 2025</div>
+                    <h3>نصائح للحفاظ على الصحة النفسية في العمل</h3>
+                    <p>في عالمنا المعاصر الذي يتسم بالسرعة والضغوط المتزايدة، أصبحت الصحة النفسية في العمل من أهم المواضيع التي يجب الاهتمام بها.</p>
+                    <a href="post1.html" class="btn btn-outline">اقرأ المزيد</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="ضغط الدم في الصيف" class="blog-img">
+                <div class="blog-content">
+                    <div class="blog-date">3 مايو 2025</div>
+                    <h3>ضغط الدم في الصيف: نصائح للتحكم</h3>
+                    <p>مع ارتفاع درجات الحرارة في فصل الصيف، يواجه مرضى ضغط الدم تحديات إضافية في الحفاظ على مستويات ضغط الدم ضمن المعدلات الطبيعية.</p>
+                    <a href="post2.html" class="btn btn-outline">اقرأ المزيد</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="الفحص الدوري" class="blog-img">
+                <div class="blog-content">
+                    <div class="blog-date">25 أبريل 2025</div>
+                    <h3>أهمية الفحص الدوري للوقاية من الأمراض</h3>
+                    <p>الفحص الطبي الدوري هو إجراء وقائي مهم يساعد في الكشف المبكر عن الأمراض قبل ظهور الأعراض، مما يزيد من فرص الشفاء.</p>
+                    <a href="#" class="btn btn-outline">اقرأ المزيد</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center" style="margin-top: 2rem;">
+            <a href="blog.html" class="btn btn-primary">تصفح جميع المقالات</a>
+        </div>
+    </section>
+
+    <!-- التقييمات -->
+    <section class="section testimonials" id="testimonials">
+        <div class="section-title">
+            <h2>تقييمات عملائنا</h2>
+            <p>ما يقوله مرضانا عن خدماتنا</p>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>تجربة ممتازة! استشارة سريعة ومفيدة مع د. أحمد محمد، شرح لي حالتة بطريقة واضحة ووصف العلاج المناسب. الخدمة سهلة وسريعة ووفرت علي عناء الذهاب إلى العيادة.</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="محمد علي" class="author-img">
+                    <div class="author-info">
+                        <h4>محمد علي</h4>
+                        <p>الرياض</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>الدكتورة سارة استشارية نفسية ممتازة، ساعدتني في تخطي مشاكل القلق والتوتر التي كنت أعاني منها. الجلسات عبر الفيديو كانت مريحة وفعالة. شكراً لفريق MedConsult على هذه الخدمة القيمة.</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="نورة عبد الرحمن" class="author-img">
+                    <div class="author-info">
+                        <h4>نورة عبد الرحمن</h4>
+                        <p>جدة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer" id="contact">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>عن MedConsult</h3>
+                <p>منصة طبية رائدة تقدم استشارات طبية إلكترونية بجودة عالية، تهدف إلى جعل الرعاية الصحية في متناول الجميع في أي وقت ومن أي مكان.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>روابط سريعة</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="#services">الخدمات</a></li>
+                    <li><a href="#doctors">الأطباء</a></li>
+                    <li><a href="#booking">الحجز</a></li>
+                    <li><a href="blog.html">المدونة</a></li>
+                    <li><a href="#testimonials">تقييمات</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>خدماتنا</h3>
+                <ul class="footer-links">
+                    <li><a href="#">استشارات الفيديو</a></li>
+                    <li><a href="#">استشارات الدردشة</a></li>
+                    <li><a href="#">السجلات الطبية</a></li>
+                    <li><a href="#">الوصفات الإلكترونية</a></li>
+                    <li><a href="#">الاستشارات النفسية</a></li>
+                    <li><a href="#">استشارات التغذية</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>اتصل بنا</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> الرياض، المملكة العربية السعودية</li>
+                    <li><i class="fas fa-phone"></i> 966112345678+</li>
+                    <li><i class="fas fa-envelope"></i> info@medconsult.com</li>
+                    <li><i class="fas fa-clock"></i> الأحد - الخميس: 8 صباحاً - 10 مساءً</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 MedConsult. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script>
+        // تنفيذ القائمة المتنقلة للجوال
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // تنفيذ التمرير السلس
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
